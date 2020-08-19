@@ -1,0 +1,55 @@
+//realizar copia de imagen creada a hub.docker.com
+//
+docker push mmoyac/postventa_beta:v4
+
+
+kubectl apply -f K8s-post-venta-corp-Namespace.yaml 
+kubectl apply -f K8s-PostVentaCorp-App.yaml   
+kubectl get all -n post-venta-corp
+
+Resultado---
+------------
+namespace/post-venta-corp created
+service/postventacorp-svc created
+deployment.apps/postventacorp-app created
+
+------------------------------------------------------------              
+
+kubectl delete -f K8s-post-venta-corp-Namespace.yaml
+kubectl delete -f K8s-PostVentaCorp-App.yaml 
+
+
+------------------------------------------------------------ 
+
+kubectl get svc -n post-venta-corp
+
+------------------------------------------------------------ 
+
+kubectl get all -n post-venta-corp
+
+
+Resultado---
+------------
+PS C:\docker\docker\postventacorp_v3> kubectl get all -n post-venta-corp
+NAME                                     READY   STATUS    RESTARTS   AGE
+pod/postventacorp-app-8589b4d897-rsm6w   1/1     Running   0          12h
+pod/postventacorp-app-8589b4d897-w2sdb   1/1     Running   0          12h
+
+NAME                        TYPE           CLUSTER-IP     EXTERNAL-IP      PORT(S)        AGE
+service/postventacorp-svc   LoadBalancer   10.0.153.180   52.149.198.183   80:31498/TCP   12h
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/postventacorp-app   2/2     2            2           12h
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/postventacorp-app-8589b4d897   2         2         2       12h
+
+------------------------------------------------------------   
+
+
+Subir un contenedor
+-------------------
+docker run --rm -p 9999:80 <Docker image name>
+
+
+

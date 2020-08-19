@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AZPruebaKatalon,Chrome 84.0.4147.105,,2020-08-07 10:47:34,2020-08-07 10:47:39,"4,943s",PASSED
+,,,,,,
+Test Cases/LevantaGoogle,Chrome 84.0.4147.105,,2020-08-07 10:47:35,2020-08-07 10:47:39,"4,645s",PASSED
+"openBrowser("""")",Chrome 84.0.4147.105,,2020-08-07 10:47:35,2020-08-07 10:47:38,"2,547s",PASSED
+"navigateToUrl(""https://www.google.cl/?gws_rd=ssl"")",Chrome 84.0.4147.105,,2020-08-07 10:47:38,2020-08-07 10:47:38,"0,771s",PASSED
+"setText(findTestObject(""Object Repository/input_Iniciar sesin_q""), ""10%"")",Chrome 84.0.4147.105,,2020-08-07 10:47:38,2020-08-07 10:47:39,"0,193s",PASSED
+closeBrowser(),Chrome 84.0.4147.105,,2020-08-07 10:47:39,2020-08-07 10:47:39,"0,793s",PASSED

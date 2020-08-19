@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestPostVenta</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b87627c1-3c76-4a07-8751-e2554cee07e2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>27ed541f-d148-493d-8823-a729aceb0a7c</id>
+      <masked>false</masked>
+      <name>TextoTitulo</name>
+   </variable>
+</TestCaseEntity>

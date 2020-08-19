@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AZPruebaKatalon" time="4" tests="1" failures="0" errors="0">
+   <testsuite name="AZPruebaKatalon" tests="1" failures="0" errors="0" time="4" timestamp="2020-08-07 10:47:34" hostname="desarrollo - host.docker.internal" id="Test Suites/AZPruebaKatalon">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\desarrollo.SOCOVESA\\Katalon Studio\\TestKatalon\\Reports\\AZPruebaKatalon\\20200807_104732"/>
+         <property name="logFiles" value="C:\\Users\\desarrollo.SOCOVESA\\Katalon Studio\\TestKatalon\\Reports\\AZPruebaKatalon\\20200807_104732\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="desarrollo - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 84.0.4147.105"/>
+         <property name="hostAddress" value="192.168.0.18"/>
+         <property name="sessionId" value="f90de0ec801de73a72f34469910541ab"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LevantaGoogle" classname="Test Cases/LevantaGoogle" status="PASSED">
+         <system-out><![CDATA[2020-08-07 10:47:35 - [TEST_CASE][PASSED] - Test Cases/LevantaGoogle: Test Cases/LevantaGoogle
+
+2020-08-07 10:47:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-07 10:47:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-07 10:47:35 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-08-07 10:47:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-07 10:47:38 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.cl/?gws_rd=ssl"): Navigate to 'https://www.google.cl/?gws_rd=ssl' successfully
+
+2020-08-07 10:47:38 - [MESSAGE][PASSED] - Navigate to 'https://www.google.cl/?gws_rd=ssl' successfully
+
+2020-08-07 10:47:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Iniciar sesin_q"), "10%"): Text '10%' is set on object 'Object Repository/input_Iniciar sesin_q'
+
+2020-08-07 10:47:39 - [MESSAGE][PASSED] - Text '10%' is set on object 'Object Repository/input_Iniciar sesin_q'
+
+2020-08-07 10:47:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-07 10:47:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-07 10:47:34 - [TEST_SUITE][PASSED] - AZPruebaKatalon: Test Cases/LevantaGoogle]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

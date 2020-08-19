@@ -1,0 +1,49 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: postventacorp-svc
+  namespace: post-venta-corp
+  labels:
+    app: postventacorp-svc
+    genby: genexus
+    du: PostVentaCorp
+spec:
+  ports:
+    - port: 80
+      name: http
+  selector:
+    app: postventacorp-app
+  type: LoadBalancer
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: postventacorp-app
+  namespace: post-venta-corp
+#  annotations:
+#    kubernetes.io/change-cause: "mmoyac/postventa_beta:v4"
+  labels:
+    app: postventacorp-app
+    genby: genexus
+    du: PostVentaCorp
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: postventacorp-app
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: postventacorp-app
+        genby: genexus
+        du: PostVentaCorp
+    spec:
+      containers:
+      - image: acrpostventa.azurecr.io/postventa_beta:#{Build.BuildId}# 
+        name: postventacorp
+        ports:
+        - containerPort: 80
+          name: external-port
+        imagePullPolicy: Always

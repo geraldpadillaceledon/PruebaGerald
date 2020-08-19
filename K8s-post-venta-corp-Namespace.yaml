@@ -1,0 +1,6 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: post-venta-corp
+  labels:
+    genby: genexus

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SuiteKatalonTestPostVenta,Chrome 84.0.4147.105,,2020-08-12 17:42:58,2020-08-12 17:43:21,"22,736s",ERROR
+,,,,,,
+Test Cases/TestPostVenta,Chrome 84.0.4147.105,,2020-08-12 17:42:58,2020-08-12 17:43:21,"22,358s",ERROR
+"openBrowser("""")",Chrome 84.0.4147.105,,2020-08-12 17:42:59,2020-08-12 17:43:03,"3,869s",PASSED
+"navigateToUrl(""http://52.224.253.159/wwrecinto.aspx"")",Chrome 84.0.4147.105,,2020-08-12 17:43:03,2020-08-12 17:43:14,"11,906s",PASSED
+delay(5),Chrome 84.0.4147.105,,2020-08-12 17:43:14,2020-08-12 17:43:19,"5,036s",PASSED
+"TextoTitulo = getText(findTestObject(""Titulo""))",Chrome 84.0.4147.105,,2020-08-12 17:43:19,2020-08-12 17:43:20,"0,101s",PASSED
+println(TextoTitulo),Chrome 84.0.4147.105,,2020-08-12 17:43:20,2020-08-12 17:43:20,"0,004s",PASSED
+"if (TextoTitulo == ""Post Venta Corp (QAS) - Mencaje Ejemplo para nueva versión"")",Chrome 84.0.4147.105,,2020-08-12 17:43:20,2020-08-12 17:43:20,"0,001s",PASSED
+else,Chrome 84.0.4147.105,,2020-08-12 17:43:20,2020-08-12 17:43:21,"1,030s",ERROR

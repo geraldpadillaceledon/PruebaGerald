@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: posventaazprod-deployment
+    labels:
+        app: posventaazprod
+spec:
+    replicas: 1
+    selector:
+        matchLabels:
+            app: posventaazprod
+    template:
+        metadata:
+            labels:
+                app: posventaazprod
+        spec:
+            containers:
+            - name: k8s-azprod
+              image: acrpostventa.azurecr.io/posventaazprod:#{Build.BuildId}#
+              ports:
+              - containerPort: 80
+            imagePullSecrets:
+            - name: regdemo
+---
+apiVersion: v1
+kind: Service
+metadata:
+    name: posventaazprod
+    labels:
+        app: posventaazprod
+spec:
+    ports:
+        - name: http-port
+          port: 80
+          targetPort: 80
+    selector:
+        app: posventaazprod
+    type: LoadBalancer

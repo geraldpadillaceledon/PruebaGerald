@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: posventaprod-deployment
+    labels:
+        app: posventaprod
+spec:
+    replicas: 1
+    selector:
+        matchLabels:
+            app: posventaprod
+    template:
+        metadata:
+            labels:
+                app: posventaprod
+        spec:
+            containers:
+            - name: k8s-demo10
+              image: docker.io/janeitor/testprod:BUILD_NUMBER
+              ports:
+              - containerPort: 80
+            imagePullSecrets:
+            - name: myregistrykey
+---
+apiVersion: v1
+kind: Service
+metadata:
+    name: posventaprod
+    labels:
+        app: posventaprod
+spec:
+    ports:
+        - name: http-port
+          port: 80
+          targetPort: 80
+    selector:
+        app: posventaprod
+    type: LoadBalancer

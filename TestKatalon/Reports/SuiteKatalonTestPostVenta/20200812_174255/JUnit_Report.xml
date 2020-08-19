@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SuiteKatalonTestPostVenta" time="22" tests="0" failures="0" errors="1">
+   <testsuite name="SuiteKatalonTestPostVenta" tests="0" failures="0" errors="1" time="22" timestamp="2020-08-12 17:42:58" hostname="desarrollo - MV_AAGUILARS1.socovesa.cl" id="Test Suites/SuiteKatalonTestPostVenta">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\desarrollo.SOCOVESA\\git\\PruebaAzureTest\\Reports\\SuiteKatalonTestPostVenta\\20200812_174255"/>
+         <property name="logFiles" value="C:\\Users\\desarrollo.SOCOVESA\\git\\PruebaAzureTest\\Reports\\SuiteKatalonTestPostVenta\\20200812_174255\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="desarrollo - MV_AAGUILARS1.socovesa.cl"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 84.0.4147.105"/>
+         <property name="hostAddress" value="10.81.233.137"/>
+         <property name="sessionId" value="e8a70c7b9930732ba6f468a5f3d1c5e2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestPostVenta" classname="Test Cases/TestPostVenta" status="ERROR">
+         <error type="ERROR" message="Test Cases/TestPostVenta FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Se ha detectado error, no se ha encontrado el texto indicado.
+	at TestPostVenta.run(TestPostVenta:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597264975329.run(TempTestSuite1597264975329.groovy:35)
+"/>
+         <system-out><![CDATA[2020-08-12 17:42:58 - [TEST_CASE][ERROR] - Test Cases/TestPostVenta: Test Cases/TestPostVenta FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Se ha detectado error, no se ha encontrado el texto indicado.
+	at TestPostVenta.run(TestPostVenta:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597264975329.run(TempTestSuite1597264975329.groovy:35)
+
+
+2020-08-12 17:42:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-12 17:42:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-12 17:42:59 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-08-12 17:43:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-12 17:43:03 - [TEST_STEP][PASSED] - navigateToUrl("http://52.224.253.159/wwrecinto.aspx"): Navigate to 'http://52.224.253.159/wwrecinto.aspx' successfully
+
+2020-08-12 17:43:14 - [MESSAGE][PASSED] - Navigate to 'http://52.224.253.159/wwrecinto.aspx' successfully
+
+2020-08-12 17:43:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-08-12 17:43:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-12 17:43:19 - [TEST_STEP][PASSED] - TextoTitulo = getText(findTestObject("Titulo")): Text of object 'Object Repository/Titulo' is: 'Post Venta Corp (QAS) - Mensaje Ejemplo para nueva versión'
+
+2020-08-12 17:43:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Titulo' is: 'Post Venta Corp (QAS) - Mensaje Ejemplo para nueva versión'
+
+2020-08-12 17:43:20 - [TEST_STEP][PASSED] - println(TextoTitulo): null
+
+2020-08-12 17:43:20 - [TEST_STEP][PASSED] - if (TextoTitulo == "Post Venta Corp (QAS) - Mencaje Ejemplo para nueva versión"): null
+
+2020-08-12 17:43:20 - [TEST_STEP][ERROR] - else: else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Se ha detectado error, no se ha encontrado el texto indicado.
+	at TestPostVenta.run(TestPostVenta:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597264975329.run(TempTestSuite1597264975329.groovy:35)
+
+
+2020-08-12 17:43:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-12 17:43:21 - [MESSAGE][PASSED] - Browser is closed
+
+2020-08-12 17:43:21 - [TEST_STEP][ERROR] - throw new com.kms.katalon.core.exception.StepErrorException(Se ha detectado error, no se ha encontrado el texto indicado.): else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Se ha detectado error, no se ha encontrado el texto indicado.
+	at TestPostVenta.run(TestPostVenta:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597264975329.run(TempTestSuite1597264975329.groovy:35)
+
+
+2020-08-12 17:43:21 - [MESSAGE][ERROR] - else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Se ha detectado error, no se ha encontrado el texto indicado.
+	at TestPostVenta.run(TestPostVenta:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597264975329.run(TempTestSuite1597264975329.groovy:35)]]></system-out>
+         <system-err><![CDATA[2020-08-12 17:42:58 - [TEST_CASE][ERROR] - Test Cases/TestPostVenta: Test Cases/TestPostVenta FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Se ha detectado error, no se ha encontrado el texto indicado.
+	at TestPostVenta.run(TestPostVenta:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597264975329.run(TempTestSuite1597264975329.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-12 17:42:58 - [TEST_SUITE][ERROR] - SuiteKatalonTestPostVenta: Test Cases/TestPostVenta FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Se ha detectado error, no se ha encontrado el texto indicado.
+	at TestPostVenta.run(TestPostVenta:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597264975329.run(TempTestSuite1597264975329.groovy:35)]]></system-out>
+      <system-err><![CDATA[2020-08-12 17:42:58 - [TEST_SUITE][ERROR] - SuiteKatalonTestPostVenta: Test Cases/TestPostVenta FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Se ha detectado error, no se ha encontrado el texto indicado.
+	at TestPostVenta.run(TestPostVenta:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597264975329.run(TempTestSuite1597264975329.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>
