@@ -1,38 +1,38 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-    name: posventaqa-deployment
+    name: posventagerald-deployment
     labels:
-        app: posventaqa
+        app: posventagerald
 spec:
     replicas: 1
     selector:
         matchLabels:
-            app: posventaqa
+            app: posventagerald
     template:
         metadata:
             labels:
-                app: posventaqa
+                app: posventagerald
         spec:
             containers:
             - name: k8s-demo10
-              image: docker.io/janeitor/testqa:BUILD_NUMBER
+              image: docker.io/geraldpadillaceledon/pruebadocker1:1
               ports:
               - containerPort: 80
             imagePullSecrets:
-            - name: myregistrykey
+            - name: registrogerald
 ---
 apiVersion: v1
 kind: Service
 metadata:
-    name: posventaqa
+    name: posventagerald
     labels:
-        app: posventaqa
+        app: posventagerald
 spec:
     ports:
         - name: http-port
           port: 80
           targetPort: 80
     selector:
-        app: posventaqa
+        app: posventagerald
     type: LoadBalancer
