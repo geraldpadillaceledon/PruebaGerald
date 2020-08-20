@@ -16,7 +16,7 @@ spec:
         spec:
             containers:
             - name: k8s-demo10
-              image: docker.io/geraldpadillaceledon/pruebadocker1:1
+              image: docker.io/geraldpadillaceledon/pruebadocker2:2
               ports:
               - containerPort: 80
             imagePullSecrets:
